@@ -1,0 +1,15 @@
+
+@media screen and (max-width:725px) {
+    .btn{
+    left: 33%;
+}
+
+h1{
+    font-size: 23px;
+}
+
+.hr{
+    font-size: 23px;
+}
+}
+

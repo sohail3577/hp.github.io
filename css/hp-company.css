@@ -1,0 +1,148 @@
+
+body{
+    font-family: arial;
+}
+
+.navigation{
+    width: 101%;
+    height: 80px;
+    background-color: #000;
+    margin: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation img{
+    width: 90px;
+    height: 75px;
+}
+
+.hr-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hr{
+    width: 35%;
+    height: 0px;
+    margin-top: 42px;
+}
+
+/* image div */
+
+.office{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.office img{
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.office p{
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+/* job work */
+
+.job{
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.job p{
+    margin-left: 30px;
+    line-height: 27px;
+}
+
+.job img{
+    width: 37vw;
+    height: 22vw;
+    object-fit: cover;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+.office-job{
+    width: 37%;
+    position: relative;
+    transition: 0.5s;
+}
+
+.office-job:hover{
+    filter: brightness(75%);
+}
+
+.office-job h1{
+    position: absolute;
+    top: 84px;
+    left: 119px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.office-job:hover h1{
+    transform: scale(1.1);
+    z-index: 1;
+    color: #000;
+}
+
+.video{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ 
+
+.video video{  
+    width: 32%;
+    /* height: 269px; */
+    margin-top: 0px;
+    cursor:pointer;
+}
+
+.video-text h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.video-text p{
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.fotter{
+    width: 101%;
+    height: 90px;
+    margin: -8px;
+    background-color: #000;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotter a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.fotter a:hover{
+    text-decoration: underline #fff;
+}

@@ -1,0 +1,44 @@
+
+@media screen and (max-width:1000px) {
+        .hp-div {
+            width: 33vw;
+            height: 276px;
+        }
+
+    .hp-div img {
+        left: 10vw;
+    }
+
+    .hp-div h3 {
+        left: 52px;
+    }
+
+   .people-data img{
+       width: 75vw;
+       height: 55vw;
+       margin-right: 90px;
+   }
+
+    .people-data {
+        flex-direction: column;
+       
+    }
+
+    .data-img {
+        flex-direction: column;
+    }
+
+    .hr {
+        width: 20%;
+    }
+
+    .text h2,h3 {
+        margin-top: 58px;
+        font-size: 23px;
+    }
+
+    .data-img img{
+        width: 70vw;
+        height: 70vw;
+    }
+}

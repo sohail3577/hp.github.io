@@ -1,0 +1,46 @@
+
+@media screen and (max-width:1160px){
+    .office {
+        flex-direction: column;
+    }
+
+    .office img{
+        width: 57vw;
+        height: 28vw;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+   .job{
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+   }
+
+   .job img{
+    width: 61vw;
+    height: 40vw;
+    margin-left: -40px;
+    margin-top: 30px;
+   }
+
+   .office-job {
+    width: 52%;
+   }
+
+   .video{
+       flex-direction: column;
+       
+   }
+
+   .video video{
+        width: 77%;
+        margin: auto;
+        margin-top: 30px;
+        filter: hue-rotate(-64deg);
+    }
+
+    .hr{
+        width: 24%;
+    }
+}

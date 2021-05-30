@@ -1,0 +1,266 @@
+
+body{
+    padding: 0;
+    margin:0px 0px;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: #8d8989;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color:#095174;
+}
+
+.navigation{
+    width: 101%;
+    height: 110px;
+    background-color: #000;
+    margin: -15px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    /* margin-top: 30px; */
+}
+
+.navigation ul li a{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+   text-decoration: underline #fff;
+}
+
+.ul1-div{
+    width: 40vw;
+}
+
+.ul2-div{
+    width: 48vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation img{
+    width: 74px;
+    height: 62px;
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-left: 47px;
+}
+
+.bg-img-div{
+    position: relative;
+}
+
+.bg-img-div img{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    object-position: -1px -118px;
+    filter: brightness(101%);
+}
+
+.text{
+    position: relative;
+}
+
+.text h1,.h-hr h1{
+    font-family: arial;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 38px;
+    font-weight: lighter;
+    color: #3e4243;
+}
+
+.text img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+}
+
+
+.hp-f{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.hp-f img{
+    border-radius: 5px;
+}
+.hp-f p{
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: arial;
+    line-height: 30px;
+}
+
+.h-hr{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+.hr{
+    width: 30vw;
+    height: 0px;
+    margin: 60px auto;
+}
+
+/* growth img work */
+
+.growth-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.growth-img img{
+    width: 56vw;
+    filter: brightness(96%);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.img-text h2{
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 30px;
+}
+
+.img-para{
+    width: 90vw;
+   margin: auto;
+}
+
+.img-para p{
+    text-align: center;
+    font-family: arial;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* card work */
+
+.card{
+    width: 365px;
+    height: 350px;
+    background-color:#f5f5f5;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 3px 10px -5px #000;
+    margin: 50px;
+}
+
+.card::before,.card::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(64, 85, 204);
+    z-index: -1;
+    transition: 0.7s;
+}
+
+.card:hover::before{
+    transform: rotate(-20deg);
+    border-radius: 15px;
+    background-color: silver;
+    box-shadow: rgba( 213, 213, 219, 0.25) 0px 50px 50px -40px,
+    rgba(156, 154,154,0.3) 0px 30px 40px -30px,
+    rgba(74, 128, 182, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card:hover::after{
+    transform: rotate(20deg);
+    border-radius: 15px;
+    box-shadow: rgba( 213, 213, 219, 0.25) 0px 50px 50px -40px,
+    rgba(156, 154,154,0.3) 0px 30px 40px -30px,
+    rgba(74, 128, 182, 0.35) 0px -2px 6px 0px inset;
+}
+
+.img-container{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    background-color: silver;
+    transition: 0.7s;
+    z-index: 2;
+}
+
+.card:hover .img-container{
+     bottom: 80px;
+}
+
+.img-container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+} 
+
+
+.h2{
+    position: absolute;
+    bottom: 0px;
+    font-family: arial;
+    left: 90px;
+}
+
+.width-hr{
+    width: 33vw;
+}
+
+.cards-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.footer p{
+    z-index: 1;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    line-height: 10px;
+    font-family: arial;
+}
+
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline #fff;
+}

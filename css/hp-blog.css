@@ -1,0 +1,172 @@
+
+
+.navigion{
+    width: 100%;
+    height: 70px;
+    padding: 7px;
+    margin: -8px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.navigion img{
+    width: 89px;
+    height: 73px;
+}
+
+
+.text{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.hr{
+    margin-top: 72px;
+    width: 34%;
+    height: 0px;
+}
+
+.text h1{
+    text-align: center;
+    font-family: arial;
+    margin-top: 50px;
+}
+
+.data-img{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    /* flex-direction: column; */
+}
+
+.data-img p,.people-data p{
+    line-height: 34px;
+    font-family: arial;
+    
+}
+
+
+/* text peolple */
+
+.text h2,h3{
+    font-family: arial;
+    margin-top: 54px;
+    font-size: 28px;
+}
+
+.people-data{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto 50px;
+    margin-top: 35px;
+}
+
+.people-data p{
+    font-size: 14px;
+    word-wrap: wrap;
+    
+}
+
+.people-data img{
+    width: 450px;
+    height: 398px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+
+
+.hp-div{
+    width: 528px;
+    height: 250px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px 5px #2727d9;
+    position: relative;
+    transition: 0.5s;
+}
+
+.hp-div:hover{
+    box-shadow: 0px 1px 20px 6px #2727d9;
+}
+
+.hp-div img{
+    width: 70px;
+    height: 88px;
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 201px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.hp-div:hover img{
+    top: 48px;
+}
+
+.hp-div h3{
+    font-family: arial;
+    position: absolute;
+    top: 87px;
+    left: 129px;
+    color: #fff;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.hp-div:hover h3{
+    top: 130px;
+    color: #000;
+}
+
+/* contact work */
+
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 100px 30px 0px;
+}
+
+.contact h2{
+    font-family: arial;
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.contact img:hover{
+    filter: brightness(90%);
+}
+
+.fotter{
+    width: 101%;
+    height: 80px;
+    background-color: #000;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.fotter a,.fotter p{
+    color: #fff;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.fotter a:hover{
+    text-decoration: underline #fff;
+}
